@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+body {
+    background-image: url('../assets/Main\ Photo.png');
+    background-repeat: no-repeat;
+    background-size: 2000px 740px;
+}
+@media (min-width:2000px) {
+    body{
+      background-size: cover;
+    }
+}
+
+@font-face {
+    font-family: mont;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/MONT-REGULAR.TTF") format("truetype");
+  }
+@font-face {
+    font-family: mont;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../assets/fonts/MONT-BOLD.TTF") format("truetype");
+  }
+@font-face {
+    font-family: mont;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../assets/fonts/Mont-SemiBold.ttf") format("truetype");
+  }
+  
