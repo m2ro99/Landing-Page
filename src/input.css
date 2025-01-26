@@ -22,7 +22,7 @@ body {
     padding-top: calc(var(--spacing) * 72)
   }
   .sec-2 {
-    padding-top: calc(var(--spacing) * 22)
+    padding-top: calc(var(--spacing) * 20)
   }
 }
 @media (min-width: 1920px){
